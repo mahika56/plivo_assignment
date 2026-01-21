@@ -1,0 +1,1 @@
+function makeCall(){fetch('/make_call',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({to:document.getElementById('p').value})}).then(r=>r.json()).then(d=>alert(JSON.stringify(d)));}
