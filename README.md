@@ -35,9 +35,6 @@ Before running this project, you need the following from your Plivo Dashboard:
 2. **Auth Token**
 3. **Plivo Phone Number (FROM_NUMBER)**
 
-You can find these here:
-https://console.plivo.com/dashboard/
-
 Add them in `app.py`:
 
 AUTH_ID = "YOUR_AUTH_ID"
