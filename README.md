@@ -1,4 +1,4 @@
-This project implements a fully functional **multi-level IVR (Interactive Voice Response)** system using **Flask**, **Plivo Voice API**, and **DTMF menu handling**.  
+This project implements a fully functional multi-level IVR (Interactive Voice Response) system using Flask, Plivo Voice API, and DTMF menu handling.  
 It demonstrates outbound calling, language selection, audio playback, and call forwarding.
 
 
@@ -10,12 +10,12 @@ Enter a phone number on the web UI to automatically place an outbound call using
 
 ### Multi-Level IVR
 **Level 1 — Language Menu**
-- Press **1** → English  
-- Press **2** → Spanish  
+- Press 1 → English  
+- Press 2 → Spanish  
 
 **Level 2 — Action Menu**
-- Press **1** → Play audio file  
-- Press **2** → Connect to a live associate  
+- Press 1 → Play audio file  
+- Press 2 → Connect to a live associate  
 
 ### Audio Playback
 Plays a publicly hosted MP3 using Plivo’s `<Play>` XML verb.
@@ -31,9 +31,9 @@ Uses Plivo’s `<Dial>` to forward the call to a configured number.
 
 Before running this project, you need the following from your Plivo Dashboard:
 
-1. **Auth ID**
-2. **Auth Token**
-3. **Plivo Phone Number (FROM_NUMBER)**
+1. Auth ID
+2. Auth Token
+3. Plivo Phone Number (FROM_NUMBER)
 
 Add them in `app.py`:
 
@@ -117,7 +117,7 @@ http://localhost:5000/
 Enter your phone number in E.164 format:
 +91XXXXXXXXXX
 
-Click **Make Call**.
+Click Call.
 
 
 
